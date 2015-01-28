@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table of contents finde </title>
+</head>
+<body>
+<h1>Table of contents finde</h1>
+<form method="POST"
+      action="${request.current_route_url()}">
+   <p>Please enter a valid wiki URL</p> <input name="new_url"/>
+    <input type="submit" name="form.edit" value="Save"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table of contents finder</title>
+</head>
+<body>
+<h1>Wellcom to the table of content finder</h1>
+
+<p><a href="${request.route_url('form')}">Chlick here to enter URL</a>.</p>
+</body>
+</html>

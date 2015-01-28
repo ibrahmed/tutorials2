@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quick Tour</title>
+</head>
+<body>
+<p>Go back to <a href="${request.route_url('home')}">home page</a>.</p> <br>
+<h2>Contents</h2>
+<ul>
+    <li tal:repeat="item main_list">
+        ${item}
+    </li>
+</ul>
+</body>
+</html>

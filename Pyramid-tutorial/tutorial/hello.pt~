@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quick Tour:</title>
+</head>
+<body>
+<h1>ffffffffffffffff</h1>
+<p>Welcome</p>
+<form method="POST"
+      action="${request.current_route_url()}">
+    <input name="new_url"/>
+    <input type="submit" name="form.edit" value="Save"/>
+</form>
+</body>
+</html>
